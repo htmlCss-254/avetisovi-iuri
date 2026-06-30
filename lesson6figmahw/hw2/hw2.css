@@ -1,0 +1,83 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: xx-large ;
+}
+
+
+img {
+    width: 400;
+    height: 300;
+    margin-right: 30;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+img:hover {
+    width: 420;
+    height: 320;
+}
+
+body {
+    background-color: rgb(218, 227, 235);
+}
+ p { 
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ table {
+    border: 2px solid black;
+    
+ }
+
+ th {
+    background-color: rgb(123, 147, 123);
+    border: 2px solid black;
+ }
+
+td {
+    border: 1px solid black;
+    background-color: rgb(232, 238, 236);
+}
+
+
+#table {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+input:hover {
+    background-color: rgb(195, 195, 195);
+}
+
+input:focus {
+    background-color: rgb(150, 150, 150);
+}
+
+input::placeholder {
+    color: black;
+}
+
+td:hover {
+    background-color: rgb(174, 174, 174);
+}
+
+th:hover {
+    background-color:  rgb(76, 80, 78);
+    color: azure;
+    
+}
+
+h1:hover {
+    background-color:  rgb(147, 162, 155);
+
+    
+}
