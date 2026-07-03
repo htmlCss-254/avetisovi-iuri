@@ -1,0 +1,182 @@
+
+header {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    color: rgb(147, 144, 142);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    height: 45px;
+    align-items: center;
+    font-family: Roboto,cursive;
+    position: fixed;
+    z-index: 2;
+    
+}
+
+body {
+    margin: 0;
+}
+
+nav:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 8, 8);
+    cursor: pointer;
+}
+
+nav {
+    padding: 10px;
+}
+
+        table {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+        td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(215, 215, 215);
+
+    
+}
+
+
+        th {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(112, 112, 112);
+}
+
+
+main {
+    position: relative;
+    bottom: -50px;
+    left: 20px;
+    padding-right: 20px;
+}
+
+td:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(56, 56, 56);
+    margin-top: 15px;
+    position: fixed;
+    padding-top: 12px;
+    bottom: 0;
+    left: 0;
+    height: 200px;
+    display: flex;
+}
+
+
+h1 {
+    position: relative;
+    left: 20px;
+    font-size: large;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 20px;
+    color: rgb(147, 144, 142);
+    font-family: Roboto,cursive;
+}
+
+a {
+    display: block;
+    font-size: small;
+    margin-top: 10px;
+    position: relative;
+    left: 20px;
+    text-decoration: none;
+    font-family: Roboto,cursive;
+    color:rgb(203, 198, 194) ;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.div1 {
+    position: relative;
+    bottom: -12px;
+    text-align: center;
+    margin: 0;
+}
+
+.div2{
+    position:relative;
+    left: 440px;
+    text-align: center;
+}
+
+h2 {
+    color:  rgb(147, 144, 142);
+    font-size: large;
+    font-family: Roboto,cursive;
+}
+
+input {
+    width: 380px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.inputbutton {
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto,cursive;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h3 {
+    color:  rgb(147, 144, 142);
+    font-size: large;
+    font-family: Roboto,cursive;
+}
+
+h4 {
+    color:  rgb(161, 156, 153);
+    font-size: medium;
+    font-family: Roboto,cursive;
+    margin: 0;
+}
+
+h5 {
+    color:  rgb(161, 156, 153);
+    font-size: medium;
+    font-family: Roboto,cursive;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.div3{
+    position:relative;
+    left: 820px;
+    text-align: center;
+}
+
+.coments {
+    border: 2px solid red;
+    margin: 0;
+}
