@@ -1,0 +1,77 @@
+#title {
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+    color: rgb(0, 0, 0);
+}
+
+
+ img {
+    height: 300px ;
+    width: 400px;    
+    transition: scale 0.5s
+}
+
+.galerry {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+img:hover {
+    scale: 1.1;
+}
+
+marquee {
+    font-size: x-large;
+    background-color: rgb(199, 199, 255);
+}
+
+.centereddiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+   
+
+
+}
+
+        table {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    padding: 10px;
+
+
+}
+
+        td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(191, 212, 216);
+
+    
+}
+
+
+        th {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(77, 114, 101);
+}
+
+
+.table1342 {
+    position: absolute;
+    right: 0px;
+    top: 462px;
+
+}
+
+main {
+    position: relative;
+}
