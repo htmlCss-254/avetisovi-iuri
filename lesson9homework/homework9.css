@@ -1,0 +1,156 @@
+
+header {
+    display: flex;
+    justify-content: space-between;       
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+    margin-left: 0;
+    
+}
+
+body {
+    background-color: rgb(209, 209, 209);
+    margin: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto,sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+.navigation {
+    background-color: #4B74D6;
+    display: flex;
+    gap: 50px;
+    height: 50px;
+    align-items: center;
+    border-radius: 3px;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+    background-color: #325097;
+    font-family: Roboto,sans-serif;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.text1 {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+}
+
+main {
+    position: absolute;
+    left: 10px;
+    margin-top: 78px;
+    margin-bottom: 20px;
+}
+
+.text1 h1 {
+    margin: 0;
+}
+
+.text1 p {
+    margin-left: 10px;
+}
+
+
+
+.text2 {
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+}
+
+
+
+.text2 h1 {
+    margin: 0;
+}
+
+.text2 p {
+    margin-left: 10px;
+}
+
+.text3{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+}
+
+
+
+.text3 h1 {
+    margin: 0;
+}
+
+.text3 p {
+    margin-left: 10px;
+}
+
+#ptegmain {
+    font-size: large;
+    font-family: cursive;
+    margin: 0;
+    
+}
+
+marquee {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #0F1C38;
+}
+
+
+footer p {
+    width: 353px;
+    color: white;
+    font-family: Roboto,cursive;
+}
+
+nav {
+    width: 124px;
+    color: #616161;
+    font-family: Roboto,cursive;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+    font-family: Roboto,cursive;
+}
+
+.whole {
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+    margin-left: 30px;
+}
+
+
+#textforinfo {
+    font-size: large;
+    font-family: cursive;
+    margin: 0;
+    margin-top: 44px;
+    
+
+}
